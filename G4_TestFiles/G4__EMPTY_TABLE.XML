@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DATABASE name="G4">
+  <TABLE name="EMPTY_TABLE">
+  </TABLE>
+  <HISTORY>
+    <ITEM author="Ricardo Sanchez" comment="Initial Creation" date="4/11/2020"/>
+  </HISTORY>
+</DATABASE>

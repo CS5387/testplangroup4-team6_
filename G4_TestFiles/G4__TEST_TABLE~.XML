@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<DATABASE name="G4">
+  <TABLE name="TEST_TABLE">
+    <ROW>
+      <INDEX>0</INDEX>
+      <TYPE>TYPE1</TYPE>
+      <DESCRIPTION>SAMPLE0</DESCRIPTION>
+    </ROW>
+    <ROW>
+      <INDEX>1</INDEX>
+      <TYPE>TYPE2</TYPE>
+      <DESCRIPTION>SAMPLE1</DESCRIPTION>
+    </ROW>
+    <ROW>
+      <INDEX>2</INDEX>
+      <TYPE>TYPE1</TYPE>
+      <DESCRIPTION>SAMPLE1</DESCRIPTION>
+    </ROW>
+  </TABLE>
+  <HISTORY>
+    <ITEM author="Ricardo Sanchez" comment="Initial Creation" date="4/11/2020"/>
+  </HISTORY>
+</DATABASE>

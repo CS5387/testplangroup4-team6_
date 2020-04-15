@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE DATABASE SYSTEM "./DB/WscDatabase.dtd">
+<DATABASE name='G4' file_name='TESTSC1_TDRS_DB.DUMP'>
+  <PROPERTY name='NumberOfUsers' value='100' />
+  <PROPERTY name='BufferMemory' value='false' />
+  <PROPERTY name='Snapshot' value='false' />
+  <PROPERTY name='AllocationPages' value='0' />
+  <PROPERTY name='ExtentMinimum' value='99' />
+  <PROPERTY name='ExtentMaximum' value='9999' />
+  <PROPERTY name='SnapshotAllocationPages' value='100' />
+ <TABLE name='CONSTRAINT_TABLE' x='520' y='520'>
+    <COLUMN name='INDEX' type='INTEGER' >
+      <CONSTRAINT name='NN_0' type='NotNull'/>
+    </COLUMN>
+    <COLUMN name='DESCRIPTION' type='CHAR' size='5'  >
+	  <CONSTRAINT name='EN_1' type='Check'>
+	     <OPTION>OPT01</OPTION>
+		 <OPTION>OPT02</OPTION>
+      </CONSTRAINT>
+    </COLUMN>
+    <COLUMN name='RESTRICTION_TYPE' type='CHAR' size='20' >
+      <CONSTRAINT name='NN_0' type='NotNull'/>
+    </COLUMN>
+    <COLUMN name='ATTENTION1' type='CHAR' size='20' >
+      <CONSTRAINT name='NN_0' type='NotNull'/>
+    </COLUMN>
+    <COLUMN name='ATTENTION2' type='CHAR' size='20' >
+	  <CONSTRAINT name='NN_0' type='Unique'/>
+    </COLUMN>
+  </TABLE>
+<TABLE name='EMPTY_TABLE' x='520' y='520'>
+  </TABLE>
+
+<TABLE name='TEST_TABLE' x='50' y='50'>
+    <COLUMN name='INDEX' type='INTEGER' >
+      <CONSTRAINT name='NN_0' type='NotNull'/>
+    </COLUMN>
+    <COLUMN name='TYPE' type='CHAR' size='5'  >
+	  <CONSTRAINT name='EN_1' type='Check'>
+	     <OPTION>TYPE1</OPTION>
+		 <OPTION>TYPE2</OPTION>
+      </CONSTRAINT>
+    </COLUMN>
+    <COLUMN name='DESCRIPTION' type='CHAR' size='20' >
+      <CONSTRAINT name='NN_0' type='NotNull'/>
+    </COLUMN>
+  </TABLE>
+  <HISTORY>
+    <ITEM date='04/11/2020' author='Ricardo Sanchez' comment='Initial creation' />
+  </HISTORY>
+</DATABASE>
+
+
+
+ 
